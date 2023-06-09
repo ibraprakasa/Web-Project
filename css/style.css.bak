@@ -1,0 +1,264 @@
+body{
+	background-color: gainsboro;
+}
+.badan-utama {
+	max-width: 1080px;
+	margin: 20px auto;
+	background-color: white;
+	overflow: hidden;
+}
+.logo-klub{
+	text-align: right;
+	margin-right: 5px;
+	margin-top: 5px;
+	margin-bottom: 5px;
+}
+.logo-klub img{
+	width: 30px;
+	height: 30px;
+	border-radius: 50%;
+	padding: 2px;
+}
+
+.logo-klub a{
+	text-decoration: none;
+}
+
+.logo-klub hr{
+	border-top: 2px dashed red;
+	margin-left: 5px;
+}
+
+.navigasi ul{
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+	background-color: black;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 15px;
+	font-weight: bold;
+}
+
+.navigasi li{
+	float: left;
+}
+
+.navigasi a{
+	display: block;
+	color: white;
+	padding: 10px 20px;
+	text-align:center;
+	text-decoration:none;
+}
+
+.navigasi li a:hover{
+	background-color: red;
+	transition-duration:0.1s;
+}
+
+.header-kiri{
+	width: 550px;
+	float: left;
+	padding-top: 5px;
+	padding-left: 15px;
+	padding-right: 5px;
+}
+
+.header-kiri video{
+	width:100%;
+	height: 330px;
+}
+
+.header-kanan {
+	width: 240px;
+	float: left;
+	padding-top: 15px;
+	padding-right: 15px;
+}
+
+.header-kanan img{
+	width:100%;
+	height:135px;	
+}
+
+.header-kanan a{
+	text-decoration: none;
+	color : green;
+}
+
+
+.news-feed {
+	width: 750px;
+	margin-right: 10px;
+	float: left;
+	padding-top: 15px;
+	padding-left: 12px;
+	text-align:justify;
+}
+
+.judul {
+	background-color: blue;
+	border-bottom: 3px solid blue;
+	color: white;
+	padding-left: 5px;
+	padding-right: 5px;
+	padding-top: 3px;
+	border-top-left-radius: 10px;
+}
+
+
+.news-feed .kotak{
+	border-top: 3px solid blue;
+	margin-bottom: 5px;
+}
+
+.news-feed h1{
+	text-align:center;
+	color:blue;
+	
+}
+.news-feed .artikel{
+	font-family: Arial, Helvetica, sans-serif;
+	text-align: justify;
+}
+
+.news-feed table{
+	width: 100%;
+}
+
+.news-feed table td{
+	width: 50%;
+	text-align:justify;
+}
+
+.news-feed img{
+	width: 100%;
+}
+
+.tanggal-posting{
+	color: red;
+	margin-bottom: 10px;
+	display: block;
+	font-size: 12px;
+	text-align: right;
+	margin-top: 5px;
+}
+
+.news-feed a{
+	text-decoration: none;
+	color: blue;
+	font-weight: bold;
+}
+
+
+.menu-kanan {
+	width: 280px;
+	float: left;
+	padding-top: 15px;
+	margin-bottom: 15px;
+}
+
+.menu-kanan .judul {
+	background-color: yellow;
+	border-bottom: 3px solid yellow;
+	color: white;
+	padding-left: 5px;
+	padding-right: 5px;
+	padding-top: 3px;
+	border-top-left-radius: 10px;
+}
+
+.menu-kanan .kotak{
+	border-top: 3px solid yellow;
+	margin-bottom: 5px;
+}
+
+.menu-kanan a{
+	padding-top:3px;
+	text-decoration:none;
+	color:blue;
+	font-weight:bold;
+}
+
+.menu-kanan video,audio{
+	width: 100%;
+}
+
+footer{
+	float: left;
+	color: white;
+	background-color: green;
+	padding: 15px;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 15px;
+	font-weight: bold;
+	text-align: justify;
+}
+.footer-kiri {
+	width: 500px;
+	float: left;
+	padding-right: 16px;
+}
+
+.footer-tengah {
+	width:270px;
+	float:left;
+	padding-right: 16px;
+}
+
+.footer-kanan {
+	width:230px;
+	float:left;
+	text-align:center;
+}
+
+.footer-kanan a{
+	text-decoration:none;
+}
+.footer-kanan img{
+	width:30px;
+	height:30px;
+	float:center;
+	border-radius:50%;
+	padding:5px
+}
+
+@media screen and (max-width:1080px){
+	badan-utama {
+		width:100%;
+	}
+	.header-kiri,
+	.news-feed,
+	.menu-kanan{
+		width:100%;
+		float:left;
+		margin: 0;
+		padding: 0;
+	}
+	.header-kanan{
+		width: 50%;
+		float: left;
+		margin:0;
+		padding:0;;
+	}
+}
+@media screen and (max-width:780px){
+	badan-utama {
+		width:100%;
+	}
+	.header-kiri,
+	.news-feed,
+	.menu-kanan{
+		width:100%;
+		float:left;
+		margin: 0;
+		padding: 0;
+	}
+	.header-kanan{
+		width: 50%;
+		float: left;
+		margin:0;
+		padding:0;;
+	}
+}
